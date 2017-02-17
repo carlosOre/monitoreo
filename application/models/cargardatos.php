@@ -1,5 +1,17 @@
-<?php
-    // iot.php
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+class Ion_auth_model extends CI_Model
+{
+	public valor;
+	public nombre;
+
+	public function __construct( valor, nombre){
+		$this->valor =$valor;
+		$this->nombre = $nombre;
+	}
+
+	public function 
+
+	// iot.php
     // Importamos la configuración
     require("config.php");
     // Leemos los valores que nos llegan por GET
